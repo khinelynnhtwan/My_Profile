@@ -4,7 +4,7 @@ import UseButton from "./Button";
 export const Card = () => {
   return (
     <>
-      <div className="bg-[url(src/img/onboarding.svg)] h-screen bg-cover">
+      <div className="bg-[url(/src/img/onboarding.svg)] h-screen bg-cover">
         <section className="flex items-center h-screen">
           <div className="bg-[#0E0E10]/80 backdrop-blur-sm p-4 border-2 mx-auto border-[#1C1C21] rounded-[26px]">
             <div className="w-[318px] h-[416px] text-center pt-16 rounded-xl text-[#B8B8B8]">

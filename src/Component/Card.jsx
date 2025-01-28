@@ -10,7 +10,7 @@ export const Card = () => {
             <div className="">
               <div className="size-32 mx-auto mb-6 rounded-full bg-[#161616]">
                 {/* <img src="src/img/Avator.svg" alt="" /> */}
-                <img src="src/img/LongDog.gif" alt="" />
+                <img src="/src/img/LongDog.gif" alt="" />
               </div>
               <div className="mb-9">
                 <h1 className="text-3xl text-center font-bold pb-2">

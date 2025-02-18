@@ -1,11 +1,12 @@
 const Home = () => {
   return (
     <>
-      <section className="bg-[url(/src/img/bg.svg)] bg-cover bg-right p-2">
+      <section className="bg-[url(/src/img/bg.svg)] bg-cover bg-right p-2 relative">
         {/* header */}
+
         <div
           id="home"
-          className="mx-auto hover:scale-105 duration-700 sticky mb-40 top-5 z-10"
+          className="flex flex-col w-full hover:scale-105 duration-700 sticky top-5 z-10"
         >
           <header className="container max-w-[400px] mx-auto p-4 rounded-full backdrop-blur-xl bg-[#1C1C21]/60">
             <div className="flex justify-between px-8">
@@ -80,7 +81,6 @@ const Home = () => {
             </div>
           </header>
         </div>
-
         {/* home */}
         <section className="w-full mx-auto">
           <div className="container pb-60 mx-auto text-white text-center">
@@ -98,14 +98,14 @@ const Home = () => {
 
         <section
           id="profile"
-          className="container flex flex-wrap w-full md:w-[1100px] mx-auto overflow-hidden"
+          className="container mb-8 flex flex-wrap w-full md:w-[1100px] mx-auto overflow-hidden"
         >
           <div className="w-[100%] md:w-[30%] mx-auto">
             <img src="src/img/kk.jpeg" className="min-w-[100%] rounded-2xl" />
           </div>
 
           <div className="flex flex-col gap-y-3 w-[100%] md:w-[65%]">
-            <code className=" bg-[#0E0E10]/80 backdrop-blur-sm p-8 border-2 border-[#1C1C21] rounded-[26px] text-white">
+            <code className=" bg-[#0E0E10]/80 backdrop-blur-sm p-8 border-2 border-[#1C1C21] rounded-[26px] text-lg text-white">
               Hello, I'm Khine Lynn Htwan, a creative designer with 6 years and
               UI/UX designer with 3 years of experience working in various
               design environments. Throughout my career, I have had the
@@ -113,11 +113,13 @@ const Home = () => {
               exciting projects that have allowed me to grow both personally and
               professionally.
             </code>
-            <code className=" bg-[#0E0E10]/80 backdrop-blur-sm p-8 border-2 border-[#1C1C21] rounded-[26px] text-white">
+
+            <code className=" relative bg-[#121214] backdrop-blur-sm p-8 rounded-[26px] text-lg text-white">
               Hello, I'm Khine Lynn Htwan, a creative designer with 6 years and
               UI/UX designer with 3 years of experience working in various
               design environments.
             </code>
+            {/* <div className="hidden md:block  w-0 h-0 border-l-[20px] border-l-transparent border-r-[20px] border-r-transparent border-t-[40px] border-t-[#121214] rotate-45 absolute -bottom-[230px]"></div> */}
           </div>
         </section>
 

@@ -101,7 +101,7 @@ const Home = () => {
             className="container mb-8 flex flex-wrap w-full md:w-[1100px] mx-auto overflow-hidden"
           >
             <div className="w-[100%] md:w-[28%] mx-auto">
-              <img src="src/img/kk.jpeg" className="min-w-[100%] rounded-2xl" />
+              <img src="/src/img/kk.jpeg" className="min-w-[100%] rounded-2xl" />
             </div>
 
             <div className="flex flex-col gap-y-3 w-[100%] md:w-[70%] h-fit bg-[#0E0E10]/80 backdrop-blur-sm p-4 border-2 border-[#1C1C21] rounded-[26px] text-xl text-white">

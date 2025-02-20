@@ -4,10 +4,7 @@ const Home = () => {
       <section className="bg-[url(/src/img/bg.svg)] bg-cover bg-right p-2 relative">
         {/* header */}
 
-        <div
-          id="home"
-          className="flex flex-col w-full hover:scale-105 duration-700 sticky top-5 z-10"
-        >
+        <div className="flex flex-col w-full hover:scale-105 duration-700 sticky top-5 z-10 mb-60">
           <header className="container max-w-[400px] mx-auto p-4 rounded-full backdrop-blur-xl bg-[#1C1C21]/60">
             <div className="flex justify-between px-8">
               <a
@@ -95,86 +92,145 @@ const Home = () => {
         </section>
 
         {/* profile */}
+        <div className="profile">
+          <h1 className="text-5xl font-bold text-white text-center pb-14">
+            About Me
+          </h1>
+          <section
+            id="profile"
+            className="container mb-8 flex flex-wrap w-full md:w-[1100px] mx-auto overflow-hidden"
+          >
+            <div className="w-[100%] md:w-[28%] mx-auto">
+              <img src="src/img/kk.jpeg" className="min-w-[100%] rounded-2xl" />
+            </div>
 
-        <section
-          id="profile"
-          className="container mb-8 flex flex-wrap w-full md:w-[1100px] mx-auto overflow-hidden"
-        >
-          <div className="w-[100%] md:w-[30%] mx-auto">
-            <img src="src/img/kk.jpeg" className="min-w-[100%] rounded-2xl" />
-          </div>
+            <div className="flex flex-col gap-y-3 w-[100%] md:w-[70%] h-fit bg-[#0E0E10]/80 backdrop-blur-sm p-4 border-2 border-[#1C1C21] rounded-[26px] text-xl text-white">
+              <h1 className="text-3xl font-bold px-6 pt-4">
+                Hello, I'm{" "}
+                <span className="text-yellow-500">Khine Lynn Htwan</span>
+              </h1>
+              <p className="px-6 pb-2 font-light text-justify">
+                A creative designer with 6 years and UI/UX designer with 3 years
+                of experience working in various design environments. Throughout
+                my career, I have had the opportunity to collaborate with
+                talented individuals and work on exciting projects that have
+                allowed me to grow both personally and professionally.
+              </p>
 
-          <div className="flex flex-col gap-y-3 w-[100%] md:w-[65%]">
-            <code className=" bg-[#0E0E10]/80 backdrop-blur-sm p-8 border-2 border-[#1C1C21] rounded-[26px] text-lg text-white">
-              Hello, I'm Khine Lynn Htwan, a creative designer with 6 years and
-              UI/UX designer with 3 years of experience working in various
-              design environments. Throughout my career, I have had the
-              opportunity to collaborate with talented individuals and work on
-              exciting projects that have allowed me to grow both personally and
-              professionally.
-            </code>
-
-            <code className=" relative bg-[#121214] backdrop-blur-sm p-8 rounded-[26px] text-lg text-white">
-              Hello, I'm Khine Lynn Htwan, a creative designer with 6 years and
-              UI/UX designer with 3 years of experience working in various
-              design environments.
-            </code>
-            {/* <div className="hidden md:block  w-0 h-0 border-l-[20px] border-l-transparent border-r-[20px] border-r-transparent border-t-[40px] border-t-[#121214] rotate-45 absolute -bottom-[230px]"></div> */}
-          </div>
-        </section>
+              <p className=" relative bg-[#121214] backdrop-blur-sm p-6 rounded-[26px] text-xl text-white">
+                <h1 className="font-bold text-2xl pb-2">
+                  Proficiency in Tools Design & Development Software Expertise
+                </h1>
+                <li className="text-justify">
+                  <span className="text-yellow-500 font-semibold">
+                    Graphic Design:
+                  </span>{" "}
+                  <span className="font-light">
+                    Photoshop, Illustrator, InDesign, After Effect.
+                  </span>
+                </li>
+                <li className="text-justify">
+                  <span className="text-yellow-500 font-semibold">
+                    UI/UX Design:
+                  </span>{" "}
+                  <span className="font-light">
+                    Adobe XD, Figma, LottieFiles, Framer.
+                  </span>{" "}
+                </li>
+                <li className="text-justify">
+                  <span className="text-yellow-500 font-semibold">
+                    Development:
+                  </span>{" "}
+                  <span className="font-light">
+                    HTML, CSS, Javascript, Tailwinds, React.
+                  </span>
+                </li>
+              </p>
+              {/* <div className="hidden md:block  w-0 h-0 border-l-[20px] border-l-transparent border-r-[20px] border-r-transparent border-t-[40px] border-t-[#121214] rotate-45 absolute -bottom-[230px]"></div> */}
+            </div>
+          </section>
+        </div>
 
         {/* Work */}
 
-        <section
-          id="work"
-          className="container flex flex-wrap w-full md:w-[1100px] mx-auto overflow-hidden"
-        >
-          <div className="flex flex-col gap-y-3 w-[100%] md:w-[65%]">
-            <code className=" bg-[#0E0E10]/80 backdrop-blur-sm p-8 border-2 border-[#1C1C21] rounded-[26px] text-white">
-              Hello, I'm Khine Lynn Htwan, a creative designer with 6 years and
-              UI/UX designer with 3 years of experience working in various
-              design environments. Throughout my career, I have had the
-              opportunity to collaborate with talented individuals and work on
-              exciting projects that have allowed me to grow both personally and
-              professionally.
-            </code>
-            <code className=" bg-[#0E0E10]/80 backdrop-blur-sm p-8 border-2 border-[#1C1C21] rounded-[26px] text-white">
-              Hello, I'm Khine Lynn Htwan, a creative designer with 6 years and
-              UI/UX designer with 3 years of experience working in various
-              design environments.
-            </code>
+        <section id="work" className="container flex flex-col mb-20 mx-auto">
+          {/* <div className="carousel w-[100%] md:w-[700px] h-[400px] mx-auto mb-5">
+            <div id="item1" className="carousel-item ">
+              <img
+                src="https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.webp"
+                className="w-full"
+              />
+            </div>
+            <div id="item2" className="carousel-item">
+              <img
+                src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp"
+                className="w-full"
+              />
+            </div>
+            <div id="item3" className="carousel-item">
+              <img
+                src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
+                className="w-full"
+              />
+            </div>
+            <div id="item4" className="carousel-item">
+              <img
+                src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
+                className="w-full"
+              />
+            </div>
           </div>
-          <div className="w-[100%] md:w-[30%] mx-auto">
-            <img src="/src/img/kk.jpeg" className="min-w-[100%] rounded-2xl" />
-          </div>
+          <div className="flex w-full justify-center gap-2 py-2">
+            <a href="#item1" className="btn btn-sm">
+              1
+            </a>
+            <a href="#item2" className="btn btn-sm">
+              2
+            </a>
+            <a href="#item3" className="btn btn-sm">
+              3
+            </a>
+            <a href="#item4" className="btn btn-sm">
+              4
+            </a>
+          </div> */}
         </section>
 
         {/* Location */}
 
-        <section
-          id="location"
-          className="container flex flex-wrap w-full md:w-[1100px] mx-auto overflow-hidden"
-        >
-          <div className="w-[100%] md:w-[30%] mx-auto">
-            <img src="/src/img/kk.jpeg" className="min-w-[100%] rounded-2xl" />
-          </div>
+        <div className="location">
+          <h1 className="text-5xl font-bold text-white text-center pb-14">
+            Get in Touch
+          </h1>
+          <section
+            id="location"
+            className="container flex flex-wrap w-full md:w-[1100px] mx-auto overflow-hidden"
+          >
+            <div className="w-[100%] md:w-[45%] mx-auto">
+              <img
+                src="/src/img/contact.png"
+                className="min-w-[100%] rounded-2xl"
+              />
+            </div>
 
-          <div className="flex flex-col gap-y-3 w-[100%] md:w-[65%]">
-            <code className=" bg-[#0E0E10]/80 backdrop-blur-sm p-8 border-2 border-[#1C1C21] rounded-[26px] text-white">
-              Hello, I'm Khine Lynn Htwan, a creative designer with 6 years and
-              UI/UX designer with 3 years of experience working in various
-              design environments. Throughout my career, I have had the
-              opportunity to collaborate with talented individuals and work on
-              exciting projects that have allowed me to grow both personally and
-              professionally.
-            </code>
-            <code className=" bg-[#0E0E10]/80 backdrop-blur-sm p-8 border-2 border-[#1C1C21] rounded-[26px] text-white">
-              Hello, I'm Khine Lynn Htwan, a creative designer with 6 years and
-              UI/UX designer with 3 years of experience working in various
-              design environments.
-            </code>
-          </div>
-        </section>
+            <div className="flex flex-col gap-y-3 w-[100%] h-fit md:w-[50%] bg-[#0E0E10]/80 backdrop-blur-sm p-8 border-2 border-[#1C1C21] rounded-[26px] text-white">
+              <div className="flex justify-between">
+                <a href="">
+                  <img src="/src/img/github.svg" alt="" className="size-16" />
+                </a>
+                <a href="">
+                  <img src="/src/img/linkedin.svg" alt="" className="size-16" />
+                </a>
+                <a href="">
+                  <img src="/src/img/github.svg" alt="" className="size-16" />
+                </a>
+                <a href="">
+                  <img src="/src/img/github.svg" alt="" className="size-16" />
+                </a>
+              </div>
+            </div>
+          </section>
+        </div>
       </section>
 
       {/* footer */}

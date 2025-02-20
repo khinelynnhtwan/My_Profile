@@ -19,7 +19,7 @@ export const Card = () => {
                 <code className="text-xl">Welcome to my website</code>
               </div>
               <div className="relative">
-                <Link to={"/home"}>
+                <Link to={"/onboarding"}>
                   <UseButton text="Get Started" />
                 </Link>
               </div>

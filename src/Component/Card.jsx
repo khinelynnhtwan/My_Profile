@@ -9,7 +9,7 @@ export const Card = () => {
           <div className="w-[318px] h-[416px] text-center pt-16 rounded-xl text-[#B8B8B8]">
             <div className="">
               <div className="size-32 mx-auto mb-6 rounded-full bg-[#161616]">
-                <img src="src/img/Avator.svg" alt="" />
+                <img src="/src/img/Avator.svg" alt="" />
                 {/* <img src="/src/img/LongDog.gif" alt="" /> */}
               </div>
               <div className="mb-9">

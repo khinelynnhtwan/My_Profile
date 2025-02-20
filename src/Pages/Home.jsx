@@ -101,7 +101,7 @@ const Home = () => {
             className="container mb-8 flex flex-wrap w-full md:w-[1100px] mx-auto overflow-hidden"
           >
             <div className="w-[100%] md:w-[28%] mx-auto">
-              <img src="/src/img/kk.jpeg" className="min-w-[100%] rounded-2xl" />
+              <img src="../src/img/kk.jpeg" className="min-w-[100%] rounded-2xl" />
             </div>
 
             <div className="flex flex-col gap-y-3 w-[100%] md:w-[70%] h-fit bg-[#0E0E10]/80 backdrop-blur-sm p-4 border-2 border-[#1C1C21] rounded-[26px] text-xl text-white">
@@ -208,7 +208,7 @@ const Home = () => {
           >
             <div className="w-[100%] md:w-[45%] mx-auto">
               <img
-                src="/src/img/contact.png"
+                src="../src/img/contact.png"
                 className="min-w-[100%] rounded-2xl"
               />
             </div>
@@ -216,16 +216,16 @@ const Home = () => {
             <div className="flex flex-col gap-y-3 w-[100%] h-fit md:w-[50%] bg-[#0E0E10]/80 backdrop-blur-sm p-8 border-2 border-[#1C1C21] rounded-[26px] text-white">
               <div className="flex justify-between">
                 <a href="">
-                  <img src="/src/img/github.svg" alt="" className="size-16" />
+                  <img src="../src/img/github.svg" alt="" className="size-16" />
                 </a>
                 <a href="">
-                  <img src="/src/img/linkedin.svg" alt="" className="size-16" />
+                  <img src="../src/img/linkedin.svg" alt="" className="size-16" />
                 </a>
                 <a href="">
-                  <img src="/src/img/github.svg" alt="" className="size-16" />
+                  <img src="../src/img/github.svg" alt="" className="size-16" />
                 </a>
                 <a href="">
-                  <img src="/src/img/github.svg" alt="" className="size-16" />
+                  <img src="../src/img/github.svg" alt="" className="size-16" />
                 </a>
               </div>
             </div>

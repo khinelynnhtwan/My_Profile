@@ -1,10 +1,12 @@
+import UseButton from "../Component/Button";
+
 const Home = () => {
   return (
     <>
       <section className="bg-[url(/img/bg.svg)] bg-cover bg-right p-2 relative">
         {/* header */}
 
-        <div className="flex flex-col w-full hover:scale-105 duration-700 sticky top-5 z-10 mb-60">
+        <div className="flex flex-col w-full hover:scale-105 duration-700 sticky top-5 z-10 mb-44">
           <header className="container max-w-[400px] mx-auto p-4 rounded-full backdrop-blur-xl bg-[#1C1C21]/60">
             <div className="flex justify-between px-8">
               <a
@@ -80,7 +82,7 @@ const Home = () => {
         </div>
         {/* home */}
         <section className="w-full mx-auto">
-          <div className="container pb-60 mx-auto text-white text-center">
+          <div className="container pb-52 mx-auto text-white text-center">
             <h1 className="text-6xl lg:text-8xl text-[#E3E3E3] font-bold">
               Code with purpose,<br></br>Design with passion
             </h1>
@@ -92,8 +94,8 @@ const Home = () => {
         </section>
 
         {/* profile */}
-        <div className="profile">
-          <h1 className="text-5xl font-bold text-white text-center pb-14">
+        <div className="profile mb-24">
+          <h1 className="text-4xl font-bold text-white text-center pb-14">
             About Me
           </h1>
           <section
@@ -153,53 +155,62 @@ const Home = () => {
 
         {/* Work */}
 
-        <section id="work" className="container flex flex-col mb-20 mx-auto">
-          {/* <div className="carousel w-[100%] md:w-[700px] h-[400px] mx-auto mb-5">
-            <div id="item1" className="carousel-item ">
-              <img
-                src="https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.webp"
-                className="w-full"
-              />
+        <section
+          id="work"
+          className="container flex flex-col mb-20 mx-auto overflow-hidden"
+        >
+          <h1 className="text-4xl font-bold text-white text-center pb-14">
+            A Look at My Professional Journey
+          </h1>
+          <div className="buttons text-nowrap flex justify-left md:justify-center gap-x-4 overflow-scroll">
+            <UseButton text="Graphic Design & Motion" fontSize="18px" />
+            <UseButton text="" fontSize="18px" />
+            <UseButton text="" fontSize="18px" />
+          </div>
+
+          <div className="flex flex-col w-[800px] mx-auto gap-y-3 h-fit bg-[#0E0E10]/80 backdrop-blur-sm p-4 border-2 border-[#1C1C21] rounded-[26px] text-xl text-white">
+            <div className=" relative bg-[#121214] backdrop-blur-sm p-6 rounded-[26px] text-xl text-center text-white">
+              <h1 className="font-medium text-xl pb-2">
+                Graphic Designer @ MiBaYeik Design & Printing
+              </h1>
+              <span>2011- 2012</span>
+              <p className="font-light text-center px-24">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. A sit
+                cum deleniti reiciendis neque laborum eum quos corporis repellat
+                obcaecati.
+              </p>
             </div>
-            <div id="item2" className="carousel-item">
-              <img
-                src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp"
-                className="w-full"
-              />
+
+            <div className=" relative bg-[#121214] backdrop-blur-sm p-6 rounded-[26px] text-xl text-center text-white">
+              <h1 className="font-medium text-xl pb-2">
+                Graphic Designer @ MyanAung Design Studio
+              </h1>
+              <span>2011- 2012</span>
+              <p className="font-light text-center px-24">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. A sit
+                cum deleniti reiciendis neque laborum eum quos corporis repellat
+                obcaecati.
+              </p>
             </div>
-            <div id="item3" className="carousel-item">
-              <img
-                src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
-                className="w-full"
-              />
-            </div>
-            <div id="item4" className="carousel-item">
-              <img
-                src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
-                className="w-full"
-              />
+
+            <div className=" relative bg-[#121214] backdrop-blur-sm p-6 rounded-[26px] text-xl text-center text-white">
+              <h1 className="font-medium text-xl pb-2">
+                Graphic Designer @ ILBC International School
+              </h1>
+              <span>2011- 2012</span>
+              <p className="font-light text-center px-24">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. A sit
+                cum deleniti reiciendis neque laborum eum quos corporis repellat
+                obcaecati.
+              </p>
             </div>
           </div>
-          <div className="flex w-full justify-center gap-2 py-2">
-            <a href="#item1" className="btn btn-sm">
-              1
-            </a>
-            <a href="#item2" className="btn btn-sm">
-              2
-            </a>
-            <a href="#item3" className="btn btn-sm">
-              3
-            </a>
-            <a href="#item4" className="btn btn-sm">
-              4
-            </a>
-          </div> */}
         </section>
 
         {/* Location */}
 
         <div className="location">
-          <h1 className="text-5xl font-bold text-white text-center pb-14">
+          <h1 className="text-4xl font-bold text-white text-center pb-14">
             Get in Touch
           </h1>
           <section
@@ -234,8 +245,8 @@ const Home = () => {
       </section>
 
       {/* footer */}
-      <div className="bg-[#1C1C21] text-center text-white text-xl p-4">
-        footer
+      <div className="bg-[#1C1C21] text-center text-md text-[#9A9A9A] p-2">
+        Developed by Khine Lynn Htwan
       </div>
     </>
   );

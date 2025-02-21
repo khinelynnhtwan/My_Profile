@@ -3,7 +3,7 @@
 function UseButton(props){
   return (
     <>
-      <button style={{background: props.color, text: props.color}} className="text-[#9A9A9A] font-medium bg-[#1C1C21] hover:bg-[#17171b] active:scale-90 duration-100 py-3 px-10 rounded-full border-2 border-[#222229]">
+      <button style={{color: props.color, text: props.color, fontSize: props.fontSize, fontWeight: props.fontWeight}} className="text-[#9A9A9A] font-medium bg-[#1C1C21] hover:bg-[#17171b] active:scale-90 duration-100 py-3 px-10 rounded-full border-2 border-[#222229]">
         {props.text}
       </button>
     </>

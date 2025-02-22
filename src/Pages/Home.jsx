@@ -162,47 +162,122 @@ const Home = () => {
           <h1 className="text-4xl font-bold text-white text-center pb-14">
             A Look at My Professional Journey
           </h1>
-          <div className="buttons text-nowrap flex justify-left md:justify-center gap-x-4 overflow-scroll">
+          <div className="buttons text-nowrap flex justify-left md:justify-center gap-x-4 overflow-scroll pb-4">
             <UseButton text="Graphic Design & Motion" fontSize="18px" />
             <UseButton text="" fontSize="18px" />
             <UseButton text="" fontSize="18px" />
           </div>
 
-          <div className="flex flex-col w-[800px] mx-auto gap-y-3 h-fit bg-[#0E0E10]/80 backdrop-blur-sm p-4 border-2 border-[#1C1C21] rounded-[26px] text-xl text-white">
-            <div className=" relative bg-[#121214] backdrop-blur-sm p-6 rounded-[26px] text-xl text-center text-white">
-              <h1 className="font-medium text-xl pb-2">
-                Graphic Designer @ MiBaYeik Design & Printing
-              </h1>
-              <span>2011- 2012</span>
-              <p className="font-light text-center px-24">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. A sit
-                cum deleniti reiciendis neque laborum eum quos corporis repellat
-                obcaecati.
-              </p>
+          <div className="flex flex-col w-auto mx-auto gap-y-3 h-fit bg-[#0E0E10]/80 backdrop-blur-sm p-4 border-2 border-[#1C1C21] rounded-[26px] text-xl text-white">
+
+            {/* 1 */}
+            <div className="bg-[#121214] flex flex-wrap justify-center gap-x-8 backdrop-blur-sm p-4 rounded-[26px] text-xl text-white">
+              <div className="border-b-2 border-[#3b3b3b] text-center pb-2 block xl:hidden">
+                <h1 className="text-2xl font-semibold">
+                  Senior Graphic Designer @ ILBC International School
+                </h1>
+                <span className="text-xl font-light">(Present)</span>
+              </div>
+
+              <div className="border-r-2 border-[#3b3b3b] pr-8 last:block hidden xl:block">
+                <h1 className="text-2xl font-semibold ">
+                  Senior Graphic Designer @ <br />
+                  ILBC International School
+                </h1>
+                <span className="text-xl font-light">(Present)</span>
+              </div>
+
+              <ul className="font-light pb-2 sm:pt-2">
+                <li className="">
+                  - Lead the design team and creative projects
+                </li>
+                <li className="">
+                  - Design social media graphics, flyers, and event materials
+                </li>
+                <li className="">
+                  - Manage large-format printing, including vinyl and banners
+                </li>
+                <li className="">
+                  - Collaborate with marketing and academic teams on campaigns
+                </li>
+                <li className="">
+                  - Guide junior designers and provide creative direction
+                </li>
+              </ul>
             </div>
 
-            <div className=" relative bg-[#121214] backdrop-blur-sm p-6 rounded-[26px] text-xl text-center text-white">
-              <h1 className="font-medium text-xl pb-2">
-                Graphic Designer @ MyanAung Design Studio
-              </h1>
-              <span>2011- 2012</span>
-              <p className="font-light text-center px-24">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. A sit
-                cum deleniti reiciendis neque laborum eum quos corporis repellat
-                obcaecati.
-              </p>
+            {/* 2 */}
+            <div className="bg-[#121214] flex flex-wrap flex-row-reverse justify-center gap-x-8 backdrop-blur-sm p-4 rounded-[26px] text-xl text-white">
+
+              <div className="border-b-2 border-[#3b3b3b] text-center pb-2 block xl:hidden">
+                <h1 className="text-2xl font-semibold">
+                  Junior Graphic Designer @ MiBaYeik Design Studio
+                </h1>
+                <span className="text-xl font-light">(2017-2018)</span>
+              </div>
+
+              <div className="border-l-2 border-[#3b3b3b] pl-8 last:block hidden xl:block">
+                <h1 className="text-2xl font-semibold ">
+                  Junior Graphic Designer @ <br />
+                  MiBaYeik Design Studio
+                </h1>
+                <span className="text-xl font-light">(2017-2018)</span>
+              </div>
+
+              <ul className="font-light text-right pb-2 sm:pt-2">
+                <li className="">
+                  Lead the design team and creative projects -
+                </li>
+                <li className="">
+                  Design social media graphics, flyers, and event materials -
+                </li>
+                <li className="">
+                  Manage large-format printing, including vinyl and banners -
+                </li>
+                <li className="">
+                  Collaborate with marketing and academic teams on campaigns -
+                </li>
+                <li className="">
+                  Guide junior designers and provide creative direction -
+                </li>
+              </ul>
+
             </div>
 
-            <div className=" relative bg-[#121214] backdrop-blur-sm p-6 rounded-[26px] text-xl text-center text-white">
-              <h1 className="font-medium text-xl pb-2">
-                Graphic Designer @ ILBC International School
-              </h1>
-              <span>2011- 2012</span>
-              <p className="font-light text-center px-24">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. A sit
-                cum deleniti reiciendis neque laborum eum quos corporis repellat
-                obcaecati.
-              </p>
+            {/* 3 */}
+            <div className="bg-[#121214] flex flex-wrap justify-center gap-x-8 backdrop-blur-sm p-4 rounded-[26px] text-xl text-white">
+              <div className="border-b-2 border-[#3b3b3b] text-center pb-2 block xl:hidden">
+                <h1 className="text-2xl font-semibold">
+                  Junior Graphic Designer @ MiBaYeik Design Studio
+                </h1>
+                <span className="text-xl font-light">(2017-2018)</span>
+              </div>
+
+              <div className="border-r-2 border-[#3b3b3b] pr-8 last:block hidden xl:block">
+                <h1 className="text-2xl font-semibold ">
+                  Junior Graphic Designer @ <br />
+                  MiBaYeik Design Studio
+                </h1>
+                <span className="text-xl font-light">(2017-2018)</span>
+              </div>
+
+              <ul className="font-light pb-2 sm:pt-2">
+                <li className="">
+                  - Lead the design team and creative projects
+                </li>
+                <li className="">
+                  - Design social media graphics, flyers, and event materials
+                </li>
+                <li className="">
+                  - Manage large-format printing, including vinyl and banners
+                </li>
+                <li className="">
+                  - Collaborate with marketing and academic teams on campaigns
+                </li>
+                <li className="">
+                  - Guide junior designers and provide creative direction
+                </li>
+              </ul>
             </div>
           </div>
         </section>

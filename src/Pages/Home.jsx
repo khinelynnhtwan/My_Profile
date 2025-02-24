@@ -250,16 +250,16 @@ const Home = () => {
             About Me
           </h1>
           <section className="container mb-8 flex flex-wrap w-full md:w-[1100px] mx-auto overflow-hidden">
-            <div className="w-[100%] md:w-[28%] mx-auto">
+            <div className="w-[100%] lg:w-[30%] mx-auto">
               <img src="/img/kk.jpeg" className="min-w-[100%] rounded-2xl" />
             </div>
 
-            <div className="flex flex-col gap-y-3 w-[100%] md:w-[70%] h-fit bg-[#0E0E10]/80 backdrop-blur-sm p-2 md:p-3 border-2 border-[#1C1C21] rounded-[20px] md:rounded-[26px] text-xl text-white">
-              <h1 className="text-3xl font-bold px-1 py-2">
+            <div className="flex flex-col gap-y-3 w-[100%] lg:w-[65%] h-fit bg-[#0E0E10]/80 backdrop-blur-sm p-3 md:p-3 border-2 border-[#1C1C21] rounded-[26px] text-xl text-white">
+              <h1 className="text-3xl font-bold px-3 py-3">
                 Hello, I'm{" "}
                 <span className="text-yellow-500">Khine Lynn Htwan</span>
               </h1>
-              <p className=" font-light text-justify px-1">
+              <p className=" font-light text-left px-2">
                 A creative designer with 6 years and UI/UX designer with 3 years
                 of experience working in various design environments. Throughout
                 my career, I have had the opportunity to collaborate with
@@ -267,8 +267,8 @@ const Home = () => {
                 allowed me to grow both personally and professionally.
               </p>
 
-              <p className=" relative bg-[#121214] backdrop-blur-sm p-3 md:p-6 rounded-[20px] md:rounded-[26px] text-xl text-white">
-                <h1 className="font-bold text-2xl pb-2">
+              <p className=" relative bg-[#121214] backdrop-blur-sm p-4 md:p-6 rounded-[26px] text-xl text-white">
+                <h1 className="font-bold text-2xl pb-3">
                   Proficiency in Tools Design & Development Software Expertise
                 </h1>
                 <ul className="list-disc pl-4">
@@ -320,7 +320,7 @@ const Home = () => {
 
           <div className="flex flex-col w-auto mx-auto gap-y-3 h-fit bg-[#0E0E10]/80 backdrop-blur-sm p-4 border-2 border-[#1C1C21] rounded-[26px] text-xl text-white">
             {/* 1 */}
-            <div className="bg-[#121214] flex flex-wrap justify-center gap-x-8 backdrop-blur-sm p-4 rounded-[26px] text-xl text-white">
+            <div className="bg-[#121214] flex flex-wrap justify-center gap-x-4 backdrop-blur-sm p-4 rounded-[26px] text-xl text-white">
               <div className="border-b-2 border-[#3b3b3b] text-center pb-2 block xl:hidden">
                 <h1 className="text-2xl font-semibold">
                   Senior Graphic Designer @ ILBC International School
@@ -328,7 +328,7 @@ const Home = () => {
                 <span className="text-xl font-light">(Present)</span>
               </div>
 
-              <div className="border-r-2 border-[#3b3b3b] pr-8 last:block hidden xl:block">
+              <div className="content-center border-r-2 border-[#3b3b3b] pr-4 last:block hidden xl:block">
                 <h1 className="text-2xl font-semibold ">
                   Senior Graphic Designer @ <br />
                   ILBC International School
@@ -356,61 +356,65 @@ const Home = () => {
             </div>
 
             {/* 2 */}
-            <div className="bg-[#121214] flex flex-wrap flex-row-reverse justify-center gap-x-8 backdrop-blur-sm p-4 rounded-[26px] text-xl text-white">
-              <div className="border-b-2 border-[#3b3b3b] text-center pb-2 block xl:hidden">
-                <h1 className="text-2xl font-semibold">
-                  Junior Graphic Designer @ MiBaYeik Design Studio
-                </h1>
-                <span className="text-xl font-light">(2017-2018)</span>
+            <div className="bg-[#121214] flex flex-row justify-center gap-x-8 backdrop-blur-sm p-4 rounded-[26px] text-xl text-white">
+              <div className="block xl:hidden">
+                <div className="border-b-2 border-[#3b3b3b] text-center pb-2">
+                  <h1 className="text-2xl font-semibold">
+                    Junior Graphic Designer @ MiBaYeik Design Studio
+                  </h1>
+                  <span className="text-xl font-light">(2017-2018)</span>
+                </div>
+
+                <ul className="font-light text-left list-inside pb-2 sm:pt-2">
+                  <li className="">
+                    - Lead the design team and creative projects
+                  </li>
+                  <li className="">
+                    - Design social media graphics, flyers, and event materials
+                  </li>
+                  <li className="">
+                    - Manage large-format printing, including vinyl and banners
+                  </li>
+                  <li className="">
+                    - Collaborate with marketing and academic teams on campaigns
+                  </li>
+                  <li className="">
+                    - Guide junior designers and provide creative direction
+                  </li>
+                </ul>
               </div>
 
-              <div className="border-l-2 border-[#3b3b3b] pl-8 last:block hidden xl:block">
-                <h1 className="text-2xl font-semibold ">
-                  Junior Graphic Designer @ <br />
-                  MiBaYeik Design Studio
-                </h1>
-                <span className="text-xl font-light">(2017-2018)</span>
+              <div className="flex gap-x-4">
+                <ul className="font-light text-right pb-2 sm:pt-2 hidden xl:block">
+                  <li className="">
+                    Lead the design team and creative projects -
+                  </li>
+                  <li className="">
+                    Design social media graphics, flyers, and event materials -
+                  </li>
+                  <li className="">
+                    Manage large-format printing, including vinyl and banners -
+                  </li>
+                  <li className="">
+                    Collaborate with marketing and academic teams on campaigns -
+                  </li>
+                  <li className="">
+                    Guide junior designers and provide creative direction -
+                  </li>
+                </ul>
+
+                <div className="content-center border-l-2 border-[#3b3b3b] pl-4 hidden xl:block">
+                  <h1 className="text-2xl font-semibold ">
+                    Junior Graphic Designer @ <br />
+                    MiBaYeik Design Studio
+                  </h1>
+                  <span className="text-xl font-light">(2017-2018)</span>
+                </div>
               </div>
-
-              <ul className="font-light text-left list-inside pb-2 sm:pt-2 last:block hidden">
-                <li className="">
-                  - Lead the design team and creative projects
-                </li>
-                <li className="">
-                  - Design social media graphics, flyers, and event materials
-                </li>
-                <li className="">
-                  - Manage large-format printing, including vinyl and banners
-                </li>
-                <li className="">
-                  - Collaborate with marketing and academic teams on campaigns
-                </li>
-                <li className="">
-                  - Guide junior designers and provide creative direction
-                </li>
-              </ul>
-
-              <ul className="font-light text-right pb-2 sm:pt-2 block">
-                <li className="">
-                  Lead the design team and creative projects -
-                </li>
-                <li className="">
-                  Design social media graphics, flyers, and event materials -
-                </li>
-                <li className="">
-                  Manage large-format printing, including vinyl and banners -
-                </li>
-                <li className="">
-                  Collaborate with marketing and academic teams on campaigns -
-                </li>
-                <li className="">
-                  Guide junior designers and provide creative direction -
-                </li>
-              </ul>
             </div>
 
             {/* 3 */}
-            <div className="bg-[#121214] flex flex-wrap justify-center gap-x-8 backdrop-blur-sm p-4 rounded-[26px] text-xl text-white">
+            <div className="bg-[#121214] flex flex-wrap justify-center gap-x-4 backdrop-blur-sm p-4 rounded-[26px] text-xl text-white">
               <div className="border-b-2 border-[#3b3b3b] text-center pb-2 block xl:hidden">
                 <h1 className="text-2xl font-semibold">
                   Junior Graphic Designer @ MiBaYeik Design Studio
@@ -418,7 +422,7 @@ const Home = () => {
                 <span className="text-xl font-light">(2017-2018)</span>
               </div>
 
-              <div className="border-r-2 border-[#3b3b3b] pr-8 last:block hidden xl:block">
+              <div className="content-center border-r-2 border-[#3b3b3b] pr-4 last:block hidden xl:block">
                 <h1 className="text-2xl font-semibold ">
                   Junior Graphic Designer @ <br />
                   MiBaYeik Design Studio
@@ -449,22 +453,15 @@ const Home = () => {
 
         {/* Location */}
 
-        <div className="location overflow-hidden">
+        <section className="location overflow-hidden">
           <h1 className="text-4xl font-bold text-white text-center pb-14">
             Get in Touch
           </h1>
-          <section
+          <div
             id="location"
             className="container flex flex-wrap w-full md:w-[1100px] mx-auto overflow-hidden"
           >
-            <div className="w-[100%] md:w-[45%] mx-auto">
-              <img
-                src="/img/contact.png"
-                className="min-w-[100%] rounded-2xl"
-              />
-            </div>
-
-            <div className="flex flex-col gap-y-3 w-[100%] h-fit md:w-[50%] bg-[#0E0E10]/80 backdrop-blur-sm p-8 border-2 border-[#1C1C21] rounded-[26px] text-white">
+            <div className="flex flex-col gap-y-3 w-[100%] h-fit md:w-[60%] bg-[#0E0E10]/80 backdrop-blur-sm p-8 border-2 border-[#1C1C21] rounded-[26px] text-white">
               <div className="flex justify-between">
                 <a href="">
                   <img src="/img/github.svg" alt="" className="size-16" />
@@ -480,12 +477,19 @@ const Home = () => {
                 </a>
               </div>
             </div>
-          </section>
-        </div>
+
+            <div className=" transform -scale-x-[1] w-[100%] md:w-[40%] mx-auto">
+              <img
+                src="/img/contact.png"
+                className="min-w-[100%] rounded-2xl"
+              />
+            </div>
+          </div>
+        </section>
       </section>
 
       {/* footer */}
-      <div className="bg-[#1C1C21] text-center text-md text-[#9A9A9A] p-2 overflow-hidden">
+      <div className="bg-[#1C1C21] text-center text-sm text-[#9A9A9A] p-2 overflow-hidden">
         Developed by Khine Lynn Htwan
       </div>
     </>

@@ -81,7 +81,7 @@ const Home = () => {
           </header>
         </div>
 
-        <div className="w-full mx-auto hover:scale-105 duration-700 fixed bottom-5 z-10 block lg:hidden">
+        <div className="w-full mx-auto hover:scale-105 duration-700 fixed bottom-1 z-10 block lg:hidden">
           <header className="p-4 rounded-full max-w-[350px] mx-auto backdrop-blur-xl bg-[#1C1C21]/60 overflow-hidden">
             <div className="flex justify-between px-8">
               <a
@@ -232,7 +232,7 @@ const Home = () => {
         </div> */}
 
         {/* home */}
-        <section className="w-full mx-auto mt-44 overflow-hidden">
+        <section className="w-full mx-auto mt-36 md:mt-44 overflow-hidden">
           <div className="container pb-52 mx-auto text-white text-center">
             <h1 className="text-6xl lg:text-8xl text-[#E3E3E3] font-bold">
               Code with purpose,<br></br>Design with passion

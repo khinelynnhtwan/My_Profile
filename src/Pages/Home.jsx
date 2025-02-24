@@ -245,7 +245,7 @@ const Home = () => {
         </section>
 
         {/* profile */}
-        <div className="profile mb-24 overflow-hidden"  id="profile">
+        <div className="profile mb-24 overflow-hidden" id="profile">
           <h1 className="text-4xl font-bold text-white text-center pb-14">
             About Me
           </h1>
@@ -254,12 +254,12 @@ const Home = () => {
               <img src="/img/kk.jpeg" className="min-w-[100%] rounded-2xl" />
             </div>
 
-            <div className="flex flex-col gap-y-3 w-[100%] md:w-[70%] h-fit bg-[#0E0E10]/80 backdrop-blur-sm p-4 border-2 border-[#1C1C21] rounded-[26px] text-xl text-white">
-              <h1 className="text-3xl font-bold px-6 pt-4">
+            <div className="flex flex-col gap-y-3 w-[100%] md:w-[70%] h-fit bg-[#0E0E10]/80 backdrop-blur-sm p-2 md:p-3 border-2 border-[#1C1C21] rounded-[20px] md:rounded-[26px] text-xl text-white">
+              <h1 className="text-3xl font-bold px-1 py-2">
                 Hello, I'm{" "}
                 <span className="text-yellow-500">Khine Lynn Htwan</span>
               </h1>
-              <p className="px-6 pb-2 font-light text-justify">
+              <p className=" font-light text-justify px-1">
                 A creative designer with 6 years and UI/UX designer with 3 years
                 of experience working in various design environments. Throughout
                 my career, I have had the opportunity to collaborate with
@@ -267,34 +267,36 @@ const Home = () => {
                 allowed me to grow both personally and professionally.
               </p>
 
-              <p className=" relative bg-[#121214] backdrop-blur-sm p-6 rounded-[26px] text-xl text-white">
+              <p className=" relative bg-[#121214] backdrop-blur-sm p-3 md:p-6 rounded-[20px] md:rounded-[26px] text-xl text-white">
                 <h1 className="font-bold text-2xl pb-2">
                   Proficiency in Tools Design & Development Software Expertise
                 </h1>
-                <li className="text-justify">
-                  <span className="text-yellow-500 font-semibold">
-                    Graphic Design:
-                  </span>{" "}
-                  <span className="font-light">
-                    Photoshop, Illustrator, InDesign, After Effect.
-                  </span>
-                </li>
-                <li className="text-justify">
-                  <span className="text-yellow-500 font-semibold">
-                    UI/UX Design:
-                  </span>{" "}
-                  <span className="font-light">
-                    Adobe XD, Figma, LottieFiles, Framer.
-                  </span>{" "}
-                </li>
-                <li className="text-justify">
-                  <span className="text-yellow-500 font-semibold">
-                    Development:
-                  </span>{" "}
-                  <span className="font-light">
-                    HTML, CSS, Javascript, Tailwinds, React.
-                  </span>
-                </li>
+                <ul className="list-disc pl-4">
+                  <li className="text-left">
+                    <span className="text-yellow-500 font-semibold">
+                      Graphic Design:
+                    </span>{" "}
+                    <span className="font-light">
+                      Photoshop, Illustrator, InDesign, After Effect.
+                    </span>
+                  </li>
+                  <li className="text-left">
+                    <span className="text-yellow-500 font-semibold">
+                      UI/UX Design:
+                    </span>{" "}
+                    <span className="font-light">
+                      Adobe XD, Figma, LottieFiles, Framer.
+                    </span>{" "}
+                  </li>
+                  <li className="font-light">
+                    <span className="text-yellow-500 font-semibold">
+                      Development:
+                    </span>{" "}
+                    <span className="font-light">
+                      HTML, CSS, Javascript, Tailwinds, React.
+                    </span>
+                  </li>
+                </ul>
               </p>
               {/* <div className="hidden md:block  w-0 h-0 border-l-[20px] border-l-transparent border-r-[20px] border-r-transparent border-t-[40px] border-t-[#121214] rotate-45 absolute -bottom-[230px]"></div> */}
             </div>
